@@ -1,0 +1,45 @@
+@import url("font.css");
+
+.alboxNavigationOverlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.alboxNavigationOverlayContent {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;    
+}
+
+.alboxNavigationOverlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--BlankWhite);
+    display: block;
+    transition: 0.3s;
+}
+
+.alboxNavigationOverlay .alboxCloseBtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 3rem;
+}
+
+@media screen and (max-height:450px) {
+    .alboxNavigationOverlay a {
+        font-size: 2rem;
+        top: 15px;
+        right: 35px;
+    }
+}

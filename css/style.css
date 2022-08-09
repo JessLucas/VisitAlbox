@@ -1,0 +1,13 @@
+@import url("font.css");
+
+
+
+* {
+    font-family: ProstirSans;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: bold;
+}

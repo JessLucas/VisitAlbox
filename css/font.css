@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "ProstirSans";
+    src: url("fonts/kobuzan-prostir-sans-display-heavy.otf")
+}
+
+:root {
+    --BlankWhite: #f8f8ff;
+    --AndaluciaBlack: #0D0D0D;
+    --AndaluciaGreenDark1: #02732A;
+    --AndaluciaGreenDark2: #358C3B;
+    --AndaluciaGreenLight1: #078C02;
+    --AndaluciaGreenLight2: #0DF205;
+}
